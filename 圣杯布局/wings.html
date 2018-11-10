@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    #container {
+      height: 500px;
+    }
+
+    #mid,
+    #left,
+    #right {
+      float: left;
+      height: 100%;
+    }
+
+    #mid {
+      width: 100%;
+      background: blue
+    }
+
+    #left {
+      width: 200px;
+      margin-left: -100%;
+      background: #faa;
+    }
+
+    #right {
+      width: 200px;
+      margin-left: -200px;
+      background: #faa
+    }
+
+    #mid-i {
+      padding: 0 200px 0 200px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id='container'>
+    <div id='mid'>
+      <div id='mid-i'></div>
+    </div>
+    <div id='left'></div>
+    <div id='right'></div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+      #container{
+        padding : 0 200px;
+        height: 500px;
+      }
+      #mid, #left, #right{
+        float: left;
+        position: relative;
+        height: 100%;
+      }
+      #mid{
+        width: 100%;
+        background: blue
+      }
+      #left{
+        width: 200px;
+        margin-left: -100%;
+        left:-200px;
+        background: #faa;
+      }
+      #right{
+        width: 200px;
+        margin-left: -200px;
+        background: #faa;
+        right: -200px;
+      }
+    </style>
+  <title>holyGrail</title>
+</head>
+<body>
+    
+      <div id='container'>
+        <div id='mid'>mid</div>
+        <div id='left'>left</div>
+        <div id='right'>right</div>
+      </div>
+</body>
+</html>
